@@ -1,0 +1,85 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Raleway:ital,wght@1,200&display=swap');
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif  ; 
+
+
+}
+
+body{
+    background-color:yellowgreen ;
+    padding: 0px;
+}
+.Picture{
+    
+    width: 100px;
+   
+   
+}
+.header{
+    background-color: #636a80;
+justify-content: space-between;
+align-items: center;
+display: flex;
+width: 100%;
+padding: 20px 14%;
+}
+.logo{
+font-size: 30px;
+color: rgb(239, 238, 238);
+text-decoration: none;
+font-weight: 800;
+display: flex;
+padding: 2px 5%;
+z-index:.4; 
+
+
+}
+.navbar a{ 
+    font-size: 20px;
+    color: rgb(113, 210, 255);
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 30px;
+    
+}
+.navbar a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 600s;
+} 
+
+.home{
+padding:   0 10%  ;
+height: 100vh;
+align-items: center;
+display: flex;
+}
+.homecontent{
+    max-width: 1200px;
+    background-color: wheat;
+    
+}
+.homecontent h1{
+    font-size: 29px;
+    font-weight:500px ;
+}
+
+.paragraph{
+    font-size: 20px;
+    font-weight:400px;
+}
+.homecontent.button{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    color: aqua;
+}
+.button:nth-child(2){
+    background-color: transparent;
+    color: aqua;
+}
+    

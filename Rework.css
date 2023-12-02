@@ -1,0 +1,27 @@
+a{
+color: rgb(0, 0, 255);
+}
+ul li{
+    color: blue;
+    list-style-type: none;
+ display: inline-block;
+ justify-content: space-between;
+ margin-left: 30px;
+ 
+}
+body{
+    background-color:gold;
+}
+.bye_css{
+width: 200px;
+height: 100px;
+background-color: aqua;
+z-index: .4;
+}
+.bye_html{
+    background-color: brown;
+    width: 200px;
+    z-index: .4;
+    
+height: 100px;
+}
